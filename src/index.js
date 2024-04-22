@@ -9,9 +9,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {/* Utilisation de BrowserRouter pour fournir un wrapper pour l'application avec un support de routage */}
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Accueil />} />
-        <Route path="/connexion" element={<Connexion />} />
-        <Route path="/utilisateur" element={<Utilisateur />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/connexion" element={<Login />} />
+        <Route path="/utilisateur" element={<Profile />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </BrowserRouter>
