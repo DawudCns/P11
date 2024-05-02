@@ -2,6 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 // Importation des composants et fonctions de react-router-dom
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home/Home";
+import Login from "./pages/Error/Error";
+import Profile from "./pages/Profile/Profile";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   //React StrictMode pour activer un ensemble des vérifs et des comportements supplémentaires pour le développement
